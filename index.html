@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Currencyconverter.com</title>
+</head>
+
+<body class="body">
+    <h1 class="form__h1">Oblicz kurs walutowy z euro na złotówki</h1>
+    <form class="form js-form">
+        <fieldset class="form__fieldset">
+            <legend class="form__legend">Kalkulator walutowy</legend>
+            <p>
+                <label>
+                    <span>Kwota w Euro*:</span>
+                    <input class="form__currency--important js-currency" type="number" name="number"
+                        min="1" required>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <span>Aktualny kurs:</span>
+                    <input class="form__currency--course js-course" type="number" name="readonly"
+                        readonly value="4.45">
+                </label>
+            </p>
+        </fieldset>
+        <p class="form__paragraph form__paragraph--required">Odpowiedzi wymagane są oznaczone gwiazdką*</p>
+        <p>
+            <button class="form__button">Przelicz</button><strong
+                class="form__result js-result"></strong>
+        </p>
+    </form>
+</body>
+
+</html>

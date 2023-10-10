@@ -1,0 +1,84 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+.body {
+    background-color: floralwhite;
+    padding: 5px;
+    font-family: sans-serif;
+}
+
+.form {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.form__h1 {
+    color: darkcyan;
+    font-weight: normal;
+    text-align: center;
+}
+
+.form__fieldset {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.form__legend {
+    background-color: darkcyan;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+
+}
+
+.form__currency--important {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid darkcyan;
+    background-color: floralwhite;
+    max-width: 400px;
+    width: 300px;
+
+}
+
+.form__currency--course {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid darkcyan;
+    background-color: floralwhite;
+    max-width: 400px;
+    width: 300px;
+}
+
+.form__paragraph--required {
+    font-size: 11px;
+}
+
+.form__button {
+    background-color: darkcyan;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+}
+
+.form__button:hover {
+    background-color: rgb(8, 173, 173);
+}
+
+.form__button:active {
+    background-color: rgb(13, 206, 206);
+}
+
+.form__result {
+    padding: 20px;
+}
