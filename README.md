@@ -4,3 +4,5 @@
 ###DEMO###
 
 https://tomkotula.github.io/currency-converter/
+
+*maybe I will add new features to develop this project*
