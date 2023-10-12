@@ -1,15 +1,17 @@
-let currencyElement = document.querySelector(".js-currency");
-let courseElement = document.querySelector(".js-course");
-let formElement = document.querySelector(".js-form");
-let buttonResult = document.querySelector(".js-result");
+const formElement = document.querySelector(".js-form");
+{
+    formElement.addEventListener("submit", (event) => {
+        event.preventDefault();
 
-formElement.addEventListener("submit", (event) => {
-    event.preventDefault();
+        const currencyElement = document.querySelector(".js-currency");
+        const courseElement = document.querySelector(".js-course");
+        const buttonResult = document.querySelector(".js-result");
 
-    let currency = currencyElement.value;
-    let course = courseElement.value;
+        const currency = currencyElement.value;
+        const course = courseElement.value;
 
-    let result = currency * course + "zł";
+        const result = currency * course + "zł";
 
-    buttonResult.innerText = result;
-})
+        buttonResult.innerText = result;
+    })
+}
