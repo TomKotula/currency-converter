@@ -1,5 +1,6 @@
 # currency-converter
-## This converter is created in my native language, but I will change it soon..
+## This converter is created in my native language, but I will change it soon...
+## Here you can convert cash in Euros into Zlotys (Polish currency)
 
 ###DEMO###
 
