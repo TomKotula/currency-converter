@@ -1,6 +1,9 @@
-const formElement = document.querySelector(".js-form");
 {
-    formElement.addEventListener("submit", (event) => {
+    const welcome = () => {
+        console.log("Hello every single person visiting this website! :D");
+    }
+
+    const onSubmitButton = (event) => {
         event.preventDefault();
 
         const currencyElement = document.querySelector(".js-currency");
@@ -13,5 +16,14 @@ const formElement = document.querySelector(".js-form");
         const result = currency * course + "zł";
 
         buttonResult.innerText = result;
-    })
+    }
+
+    const init = () => {
+        const formElement = document.querySelector(".js-form");
+        formElement.addEventListener("submit", onSubmitButton);
+
+        welcome();
+    };
+
+    init();
 }
