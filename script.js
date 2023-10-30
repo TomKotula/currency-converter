@@ -3,7 +3,7 @@
         console.log("Hello every single person visiting this website! :D");
     }
 
-    const onSubmitButton = (event) => {
+    const onFormSubmit = (event) => {
         event.preventDefault();
 
         const currencyElement = document.querySelector(".js-currency");
@@ -20,7 +20,7 @@
 
     const init = () => {
         const formElement = document.querySelector(".js-form");
-        formElement.addEventListener("submit", onSubmitButton);
+        formElement.addEventListener("submit", onFormSubmit);
 
         welcome();
     };
