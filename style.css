@@ -66,10 +66,6 @@ body {
     width: 300px;
 }
 
-.form__paragraph--required {
-    font-size: 11px;
-}
-
 .form__button {
     background-color: darkcyan;
     border: none;
