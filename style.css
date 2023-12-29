@@ -48,22 +48,18 @@ body {
     padding: 10px;
 }
 
-.form__currency--important {
-    padding: 10px;
+.form__input {
+    display: flex;
+    flex-basis: 350px;
+    padding: 25px;
     border-radius: 5px;
-    border: 1px solid darkcyan;
-    background-color: floralwhite;
-    max-width: 400px;
-    width: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.42);
 }
 
-.form__currency--course {
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid darkcyan;
-    background-color: floralwhite;
-    max-width: 400px;
-    width: 300px;
+.form__input--grey {
+    background-color: #F1F2F5;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.42);
 }
 
 .form__button {
