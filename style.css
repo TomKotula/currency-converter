@@ -8,19 +8,20 @@ html {
     box-sizing: inherit;
 }
 
-.body {
-    background-color: floralwhite;
-    padding: 5px;
-    font-family: sans-serif;
-    background-image: url(img/backgroundimagev3.jpg);
+body {
+    font-family: 'Open Sans', sans-serif;
 }
-
-.form {
+.container {
+    max-width: 100%;
+    width: 1000px;
     margin: 0 auto;
-    max-width: 800px;
+    margin-top: 70px;
+    padding: 50px;
+    border-radius: 20px;    
+    box-shadow: 0px 0px 5px 0px rgba(66, 68, 90, 1);
 }
 
-.form__h1 {
+.header {
     color: darkcyan;
     font-weight: normal;
     text-align: center;
