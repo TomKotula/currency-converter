@@ -10,36 +10,38 @@
     <link rel="stylesheet" href="style.css">
     <script defer src="script.js"></script>
     <title>Currencyconverter.com</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;1,200&family=Lato:wght@400;700&family=Montserrat:wght@400;600&family=Open+Sans&family=Raleway:wght@100&display=swap"
+        rel="stylesheet">
     <link rel="icon" href="img/moneyIcon.jpeg">
     <meta property="og:image" content="img/Currency.png">
 </head>
 
-<body class="body">
-    <h1 class="form__h1">Oblicz kurs walutowy z euro na złotówki</h1>
-    <form class="form js-form">
-        <fieldset class="form__fieldset">
-            <legend class="form__legend">Kalkulator walutowy</legend>
-            <p>
+<body>
+    <main class="container">
+        <header>
+            <h1 class="header">Convert your money into foreign currencies</h1>
+        </header>
+        <form class="form js-form">
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Currency converter</legend>
                 <label>
-                    <span>Kwota w Euro*:</span>
-                    <input class="form__currency--important js-currency" type="number" name="number"
-                        min="1" required>
+                    <input />
+                    <input class="form__currency--important js-currency" type="number" name="number" min="1" required
+                        placeholder="amount" />
                 </label>
-            </p>
-            <p>
                 <label>
-                    <span>Aktualny kurs:</span>
-                    <input class="form__currency--course js-course" type="number" name="readonly"
-                        readonly value="4.45">
+                    <input />
+                    <input class="form__currency--course js-course" type="number" name="readonly" readonly
+                        value="4.45" />
                 </label>
-            </p>
-            <p class="form__paragraph form__paragraph--required">Odpowiedzi wymagane są oznaczone gwiazdką*</p>
-        </fieldset>
-        <p>
-            <button class="form__button">Przelicz</button><strong
-                class="form__result js-result"></strong>
-        </p>
-    </form>
+                <p class="form__paragraph form__paragraph--required">Required answers*</p>
+            </fieldset>
+            <button class="form__button">Convert</button><strong class="form__result js-result"></strong>
+        </form>
+    </main>
 </body>
 
 </html>
