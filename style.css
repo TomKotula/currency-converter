@@ -11,13 +11,14 @@ html {
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
 .container {
     max-width: 100%;
     width: 1000px;
     margin: 0 auto;
     margin-top: 70px;
     padding: 50px;
-    border-radius: 20px;    
+    border-radius: 20px;
     box-shadow: 0px 0px 5px 0px rgba(66, 68, 90, 1);
 }
 
@@ -33,13 +34,18 @@ body {
     padding: 20px;
 }
 
+.form__label {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
 .form__legend {
     background-color: darkcyan;
     border: none;
     border-radius: 5px;
     color: white;
     padding: 10px;
-
 }
 
 .form__currency--important {
@@ -49,7 +55,6 @@ body {
     background-color: floralwhite;
     max-width: 400px;
     width: 300px;
-
 }
 
 .form__currency--course {
