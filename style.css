@@ -27,7 +27,7 @@ body {
 }
 
 .header {
-    color: darkcyan;
+    color: #5072A7;
     font-weight: normal;
     text-align: center;
     padding: 50px;
@@ -69,7 +69,7 @@ body {
 .form__button {
     max-width: 100%;
     width: 80%;
-    background-color: darkcyan;
+    background-color: #5072A7;
     border: none;
     border-radius: 5px;
     color: white;
@@ -77,11 +77,11 @@ body {
 }
 
 .form__button:hover {
-    background-color: rgb(8, 173, 173);
+    background-color: #537bbb;
 }
 
 .form__button:active {
-    background-color: rgb(13, 206, 206);
+    background-color: #4773b9;
 }
 
 .form__result {
