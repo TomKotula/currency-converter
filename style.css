@@ -10,6 +10,9 @@ html {
 
 body {
     font-family: 'Open Sans', sans-serif;
+    background-image: url("img/backgroundimage.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .container {
@@ -20,6 +23,7 @@ body {
     padding: 50px;
     border-radius: 20px;
     box-shadow: 0 0 20px 0 #b3bbc673;
+    background-color: #ffffff;
 }
 
 .header {
