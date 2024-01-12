@@ -16,6 +16,8 @@ body {
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
     max-width: 100%;
     width: 1000px;
     margin: 0 auto;
@@ -33,25 +35,28 @@ body {
     padding: 50px;
 }
 
-.form__fieldset {
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    padding: 20px;
-    border: none;
+.form__select--container {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
 }
 
-.form__label {
+.form__select {
+    flex-basis: 350px;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.form__input--container {
     display: flex;
     justify-content: space-around;
     padding: 10px;
 }
 
 .form__input {
-    display: flex;
     flex-basis: 350px;
     padding: 25px;
     border-radius: 5px;
-    border: 1px solid rgba(0, 0, 0, 0.42);
 }
 
 .form__input--grey {
@@ -67,7 +72,6 @@ body {
 }
 
 .form__button {
-    max-width: 100%;
     width: 80%;
     background-color: #5072A7;
     border: none;
@@ -82,8 +86,4 @@ body {
 
 .form__button:active {
     background-color: #4773b9;
-}
-
-.form__result {
-    padding: 20px;
 }

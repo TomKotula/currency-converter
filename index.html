@@ -25,18 +25,28 @@
             <h1 class="header">Convert your money into foreign currencies</h1>
         </header>
         <form class="form js-form">
-            <fieldset class="form__fieldset">
-                <label class="form__label">
-                    <input class="form__input" />
-                    <input class="form__input" />
-                </label>
-                <label class="form__label">
-                    <input class="form__input form__input--grey js-currency" type="number" name="number" min="1"
-                        required placeholder="amount" />
-                    <input class="form__input form__input--grey js-course" type="number" name="readonly" readonly
-                        value="4.45" />
-                </label>
-            </fieldset>
+            <div class="form__select--container">
+                <select class="form__select">
+                    <option></option>
+                    <option>PLN</option>
+                    <option>EUR</option>
+                    <option>USD</option>
+                    <option>CHF</option>
+                </select>
+                <select class="form__select">
+                    <option></option>
+                    <option>PLN</option>
+                    <option>EUR</option>
+                    <option>USD</option>
+                    <option>CHF</option>
+                </select>
+            </div>
+            <div class="form__input--container">
+                <input class="form__input form__input--grey js-currency" type="number" name="number" min="1" required
+                    placeholder="amount" />
+                <input class="form__input form__input--grey js-course" type="number" name="readonly" readonly
+                    value="4.45" />
+            </div>
             <div class="form__button--container">
                 <button class="form__button">Convert</button>
                 <!-- <strong class="form__result js-result"></strong> -->
