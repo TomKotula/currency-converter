@@ -15,6 +15,12 @@ body {
     background-position: center;
 }
 
+@media (max-width: 912px) {
+    body {
+        background-size: initial;
+    }
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -28,11 +34,24 @@ body {
     background-color: #ffffff;
 }
 
+@media (max-width: 912px) {
+    .container {
+        max-width: 95%;
+        padding: 0;
+    }
+}
+
 .header {
     color: #5072A7;
     font-weight: normal;
     text-align: center;
     padding: 50px;
+}
+
+@media (max-width: 912px) {
+    .header {
+        padding: 40px;
+    }
 }
 
 .form__select--container {
@@ -47,6 +66,13 @@ body {
     border-radius: 5px;
 }
 
+@media (max-width: 912px) {
+    .form__select {
+        width: 150px;
+        margin: 5px;
+    }
+}
+
 .form__input--container {
     display: flex;
     justify-content: space-around;
@@ -57,6 +83,13 @@ body {
     flex-basis: 350px;
     padding: 25px;
     border-radius: 5px;
+}
+
+@media (max-width: 912px) {
+    .form__input {
+        width: 150px;
+        margin: 5px;
+    }
 }
 
 .form__input--grey {
