@@ -42,14 +42,24 @@
                 </select>
             </div>
             <div class="form__input--container">
-                <input class="form__input form__input--grey js-currency" type="number" name="number" min="1" required
-                    placeholder="amount" />
-                <input class="form__input form__input--grey js-course" type="number" name="readonly" readonly
-                    value="4.45" />
+                <input 
+                    class="form__input form__input--grey js-amount" 
+                    type="number" 
+                    name="number" 
+                    min="1"
+                    required 
+                    placeholder="amount" 
+                />
+                <input
+                    class="form__input form__input--grey js-result" 
+                    type="text" 
+                    name="readonly"
+                    readonly
+                    placeholder="result" 
+                />
             </div>
             <div class="form__button--container">
                 <button class="form__button">Convert</button>
-                <!-- <strong class="form__result js-result"></strong> -->
             </div>
         </form>
     </main>
