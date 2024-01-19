@@ -13,12 +13,7 @@ body {
     background-image: url("img/backgroundimage.jpg");
     background-size: cover;
     background-position: center;
-}
-
-@media (max-width: 912px) {
-    body {
-        background-size: initial;
-    }
+    background-attachment: fixed;
 }
 
 .container {
@@ -35,6 +30,13 @@ body {
 }
 
 @media (max-width: 912px) {
+    .container {
+        max-width: 95%;
+        padding: 0;
+    }
+}
+
+@media (min-width: 1024px) {
     .container {
         max-width: 95%;
         padding: 0;
@@ -68,7 +70,7 @@ body {
 
 @media (max-width: 912px) {
     .form__select {
-        width: 150px;
+        width: 100px;
         margin: 5px;
     }
 }
@@ -87,7 +89,7 @@ body {
 
 @media (max-width: 912px) {
     .form__input {
-        width: 150px;
+        width: 100px;
         margin: 5px;
     }
 }
