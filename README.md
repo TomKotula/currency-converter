@@ -12,16 +12,14 @@ https://tomkotula.github.io/currency-converter/
 
 ## Color Reference
 
-| Color             | Hex                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| Main color | #5072A7
-| Inputs backgroundcolor | #F1F2F5
-
+| Color                  | Hex     |
+| ---------------------- | ------- |
+| Main color             | #5072A7 |
+| Inputs backgroundcolor | #F1F2F5 |
 
 ## Authors
 
 - [TomKotula](https://github.com/TomKotula)
-
 
 ![Logo](/img/Logo-company.png)
 
